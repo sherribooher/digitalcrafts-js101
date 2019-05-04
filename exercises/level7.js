@@ -3,3 +3,11 @@
 // times as the input number
 //
 // Name the function "finalFunction"
+function finalFunction(num) {
+  var arr = [];
+  var pushString = "Push it!";
+  while (arr.length != num) {
+    arr.push(pushString);
+  }
+  return arr;
+}
